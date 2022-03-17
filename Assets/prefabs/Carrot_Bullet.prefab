@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 1911061512818961801}
   - component: {fileID: 2252510125481815294}
   - component: {fileID: 321849281795492075}
+  - component: {fileID: 7915999587219158634}
   m_Layer: 0
   m_Name: Carrot_Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,8 +125,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1806882, y: 0.4345901, z: 0.61012447}
-  m_Center: {x: 0.002426654, y: -0.032759786, z: 0}
+  m_Size: {x: 0.1806882, y: 3.0118074, z: 0.61012447}
+  m_Center: {x: 0.002426654, y: -1.3213677, z: 0}
 --- !u!114 &321849281795492075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,3 +140,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+--- !u!114 &7915999587219158634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084701681747904256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3e26694fbf1c24694bfc8c18892284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

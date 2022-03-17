@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4FE009A3-B9C2-42EE-15AE-D7614ABE8651}</ProjectGuid>
+    <ProjectGuid>{1095E857-2259-EEDB-05C2-8718ABAF8B32}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,13 +54,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\spawnManager.cs" />
+    <Compile Include="Assets\scripts\detectCollision.cs" />
     <Compile Include="Assets\scripts\PlayerController.cs" />
     <Compile Include="Assets\scripts\moveForwardEnemy.cs" />
+    <Compile Include="Assets\scripts\GameManager.cs" />
     <Compile Include="Assets\scripts\moveForwardLandscape.cs" />
     <Compile Include="Assets\scripts\destroyErrant.cs" />
     <Compile Include="Assets\scripts\moveForwardBullet.cs" />
     <Compile Include="Assets\scripts\moveForward.cs" />
-    <Compile Include="Assets\scripts\detectCollision.cs" />
+    <Compile Include="Assets\scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\scripts\bulletCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
