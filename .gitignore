@@ -1,5 +1,5 @@
-build/*
-WebGL Builds/*
+build\**
+WebGL Builds\**
 connectwebgl.zip
-Temp/*
-Library/*
+Temp\**
+Library\**
